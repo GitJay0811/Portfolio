@@ -1,6 +1,7 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Poppins:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
 /* CSS Document */
 
 body{
@@ -85,35 +86,41 @@ body{
 	color: #D4D4D4;
 	text-decoration: none;
 }
-.contentTitle{
+
+.portfolios{
+	/*background-color: aqua;*/
+	max-width:800px;
+	margin-right: 50px;
+}
+.table tr{
+	max-width: 100%;
+}
+.table tr td{
+	border: 3px solid #A9A9A9;
+	border-radius: 1px;
+	padding: 30px 0px;
+}
+.table tr td a{
+	font-family: 'Kalam', cursive;
 	display: flex;
-	width: 100%;
-	z-index:2;
+	color: white;
+	font-size: 18px;
+	line-height: 25px;
+	padding-left: 15px;
+	align-items: center;
+	justify-content: center;
+	margin: 10px 0;
+	text-decoration: none;
 }
-.contentTitle img{
-	width: 160px;
-	height: 160px;
-	border-radius: 50%;
-	background-size: cover;
-	margin-top: 70px;
+.table tr td:first-child{
+	width: 40%;
 }
-.contentName{
-	font-size: 84px;
-	letter-spacing: 2.5px;
+
+.table tr td img{
+	padding: 10px;
+	max-width: 90%;
 }
-.contentDescrip{
-	font-family: "Times New Roman", Times, serif;
-	font-size: 24px;
-	line-height: 40px;
-	letter-spacing: 1px;
-	padding-top: 70px;
-	z-index:2;
-}
-.strengths{
-	margin-top: 100px;
-}
-.strengths_content ul li{
-	font-size: 20px;
-	letter-spacing: 1px;
-	line-height: 30px;
-}
+/*.freecodecamp{
+	height: 70%;
+	width: 96%;
+}*/
