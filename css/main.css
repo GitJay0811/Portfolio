@@ -88,3 +88,34 @@ body::after{
 	margin: 8px;
 	color:#E8E8E8;
 }
+
+/*===================================*/
+
+
+@media screen and (max-width:1200px){
+	.portfolios{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.icon{
+		display: flex;
+		justify-content: center;
+		padding-right: 48px;
+	}
+}
+
+/*@media screen and (max-width:768px){
+	.portfolios{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.icon{
+		display: flex;
+		justify-content: center;
+		padding-right: 48px;
+	}
+}*/
