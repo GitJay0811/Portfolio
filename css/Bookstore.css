@@ -55,6 +55,9 @@ main .display{
 main .content{
 	width: 420px;
 	background-color: #ECECEC;
+	border: 1px solid #707070;
+	border-radius: 15px;
+	position: relative;
 }
 
 /*==============================*/
@@ -108,7 +111,7 @@ li.slide{
 input[type="radio"]{
 	position: relative;
 	z-index: 100;
-	/*display: none;*/
+	display: none;
 }
 
 .controls-visible{
@@ -158,6 +161,101 @@ input[type="radio"]{
 	transform: translateX(-400%);
 }
 
+/*==========================================*/
+main .content .title{
+	background-color: #869DAB;
+	max-width: 90%;
+	margin: 10px auto;
+	padding: 15px 10px;
+	border-radius: 10px;
+	color: #fff;
+	text-align: center;
+	font-family: DFKai-sb;
+	font-weight: bold;
+}
+main .content ul li{
+	list-style: none;
+	padding: 5px;
+}
+main .content ul li span{
+	font-weight: bold;
+	font-family: DFKai-sb;
+}
+.buy{
+	/*background-color: aqua;*/
+	position: absolute;
+	bottom: 20px;
+}
+#submit{
+	width:250px;
+	margin-left: 30px;
+	padding: 10px 20px;
+	font-size: 32px;
+	border: 1px solid black;
+	border-radius: 15px;
+	background-color: #C05A5A;
+	color: #FFF;
+	
+}
+#submit:hover{
+	cursor: pointer;
+}
+.price{
+	/*background-color:#F3AFB0;*/
+	display: flex;
+	position:absolute;
+	bottom: 100px;
+	left: 15px;
+	
+}
+.price .left{
+	padding: 5px 20px;
+}
+.price .left h3:first-child{
+	margin: 0;
+	margin-bottom: 5px;
+	font-size: 24px;
+	color: #333;
+	text-decoration: line-through;
+}
+.price .left h3:last-child{
+	margin: 0;
+	display: inline;
+	border: 1px solid black;
+	background-color: #C05A5A;
+	color: #FFF;
+	padding: 3px 10px;
+}
+.price .right {
+	position: absolute;
+	left: 100px;
+	bottom: -24px;
+	font-size: 14px;
+	/*background-color: aqua;*/
+	color:  #C05A5A;
+}
+.price .right h1 span{
+	font-size: 48px;
+	margin-left: 5px;
+}
+.introduction{
+	text-align: left;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 20px;
+	margin-top: 10px;
+	letter-spacing: 1px;
+}
 
+.booklist ul{
+	color: #000;
+	width: 250px;
+	text-align: justify;
+}
 
-
+.booklist ul li{
+	margin-top: 10px;
+}
+.booklist ul li a{
+	color: #000;
+}
